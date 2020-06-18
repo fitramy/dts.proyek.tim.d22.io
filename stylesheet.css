@@ -38,3 +38,17 @@ li {
   padding-bottom: 15px;
   margin-bottom: 50px;
 }
+
+.contact-form input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+  background-color: #889eab;
+  color: #fff;
+}
