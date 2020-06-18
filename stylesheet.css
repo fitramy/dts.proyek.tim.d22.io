@@ -27,3 +27,14 @@ li {
   padding:  20px 40px;
   color: #fff;
 }
+
+.main {
+  padding: 100px 80px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
