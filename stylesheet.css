@@ -29,12 +29,62 @@ li {
     color: #fff;
 }
 
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
 .main {
     padding: 100px 80px;
+    background-image: url("/header.jpg");
+    background-size: cover;
+    
+}
+
+.team {
+    margin-top: 50px;
+    margin-bottom: 200px;
+    text-align: center;
+    height: 500px;
+    
+}
+
+.team-item {
+    float: left;
+    font-size: 24px;
+    position: relative;
+}
+
+.team-item img {
+    height: 500px;
+    
+}
+
+.transition-image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+
+.transition-image:hover {
+    opacity: 1;
 }
 
 .copy-container h1 {
     font-size: 140px;
+    margin-bottom: 0px;
+    color: #2f5167;
+    
+}
+
+.copy-container h2 {
+    font-size: 70px;
+    margin-top: 0px;
+    color: #02ccba;
+    
 }
 
 .copy-container span {
@@ -44,6 +94,8 @@ li {
 .contents {
     height: 500px;
     margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
 }
 
 .content-items {
@@ -64,6 +116,12 @@ li {
     margin-bottom: 50px;
 }
 
+.contact-form {
+    background-color: #dee7ec;
+    padding: 20px;
+}
+
+
 .contact-form input,
 textarea {
     width: 400px;
@@ -77,6 +135,7 @@ textarea {
 .contact-submit {
     background-color: #889eab;
     color: #fff;
+    width: 400px;
 }
 
 .footer {
