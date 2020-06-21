@@ -149,6 +149,14 @@ input, textarea {
     color: #fff;
 }
 
+.contact-submit:hover {
+    background-color: rgba(2, 204, 186, 0.6);
+}
+
+.contact-submit:active {
+    background-color: #02ccba;
+}
+
 .footer {
     height: 120px;
     background-color: #2f5167;
