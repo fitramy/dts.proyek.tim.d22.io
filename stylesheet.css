@@ -118,24 +118,30 @@ li {
 
 .contact-form {
     background-color: #dee7ec;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 80px;
 }
 
+.contact-form .section-title {
+    border-bottom: 2px solid #889eab;
+    text-align: center;
+}
 
-.contact-form input,
-textarea {
-    width: 400px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    padding: 20px;
+.contact-form p {
+    font-size: 20px;
+}
+
+input, textarea {
+    width: inherit;
     font-size: 18px;
+    padding: 20px 20px;
     border: 1px solid #dee7ec;
+    box-sizing: border-box;
 }
 
 .contact-submit {
     background-color: #889eab;
     color: #fff;
-    width: 400px;
 }
 
 .footer {
