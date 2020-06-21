@@ -10,6 +10,11 @@ li {
     list-style: none;
 }
 
+.header a, .footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .header {
     height: 90px;
     background-color: #26d0c9;
