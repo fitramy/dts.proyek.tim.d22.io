@@ -43,7 +43,9 @@ li {
 .main {
     padding: 100px 80px;
     background-image: url("header.jpg");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(224, 255, 249)
     
 }
 
