@@ -1,6 +1,6 @@
-*{
+* {
     box-sizing: border-box;
-  }
+}
 
 title {
     color: #02ccba;
@@ -48,7 +48,7 @@ header {
     color: white;
     float: right;
     font-size: 25px;
-    padding: 21px 0;
+    padding: 21px;
     display:  none;
   }
 
@@ -143,7 +143,7 @@ header {
 
 .contact-form .section-title {
     border-bottom: 2px solid #889eab;
-    text-align: center;
+    text-align: left;
 }
 
 .contact-form p {

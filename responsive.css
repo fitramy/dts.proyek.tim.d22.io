@@ -17,7 +17,14 @@
 }
 
 .team-item{
-    width: 25%;
+    width: 100%;
+}
+.transition-image{
+    width: 100%;
+}
+
+.container{
+    width: 100%;
 }
 
 .container h3{
@@ -38,7 +45,7 @@
     line-height: 20px;
 }
 
-.content-item{
+.content-items{
     width: 100%;
 
 }
