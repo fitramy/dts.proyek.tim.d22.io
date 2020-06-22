@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 title {
     color: #02ccba;
 }
@@ -10,13 +14,24 @@ li {
     list-style: none;
 }
 
-.header {
+header a, footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+header {
     height: 90px;
     background-color: #26d0c9;
 }
 
 .header-list li {
-    float: left;
+    float: right;
     color: #fff;
     padding-top: 33px;
     padding-left: 20px;
@@ -29,16 +44,24 @@ li {
     color: #fff;
 }
 
-.container {
-    width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px;
+    display:  none;
   }
 
 .main {
     padding: 100px 80px;
     background-image: url("header.jpg");
+<<<<<<< HEAD
     background-size: cover;
+=======
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(224, 255, 249)
+>>>>>>> ecf275bb15000063d44ab5fd69197efdf85b34f4
     
 }
 
@@ -47,7 +70,6 @@ li {
     margin-bottom: 200px;
     text-align: center;
     height: 500px;
-    
 }
 
 .team-item {
@@ -100,8 +122,8 @@ li {
 
 .content-items {
     float: left;
-    padding-right: 40px;
     font-size: 24px;
+    width: 25%;
 }
 
 .content-items p {
@@ -118,31 +140,45 @@ li {
 
 .contact-form {
     background-color: #dee7ec;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 80px;
 }
 
+.contact-form .section-title {
+    border-bottom: 2px solid #889eab;
+    text-align: left;
+}
 
-.contact-form input,
-textarea {
-    width: 400px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    padding: 20px;
+.contact-form p {
+    font-size: 20px;
+}
+
+input, textarea {
+    width: inherit;
     font-size: 18px;
+    padding: 20px 20px;
     border: 1px solid #dee7ec;
+    box-sizing: border-box;
 }
 
 .contact-submit {
-    background-color: #889eab;
+    background-color: #02ccba;
     color: #fff;
-    width: 400px;
 }
 
-.footer {
-    height: 120px;
+.contact-submit:hover {
+    background-color: rgba(2, 204, 186, 0.6);
+}
+
+.contact-submit:active {
+    background-color: #02ccba;
+}
+
+footer {
+    height: 180px;
     background-color: #2f5167;
     color: #fff;
-    padding: 40px;
+    padding: 20px;
 }
 
 .footer-logo {

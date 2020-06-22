@@ -4,38 +4,45 @@
 
 <head>
     <meta charset="utf-8">
-
-    <title>DTS Proyek Tim D22</title>
-    <meta name="description" content="DTS Proyek Tim D22">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="description" content="DTS Proyek Tim D22">
+    <title>DTS Proyek Tim D22</title>
     <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
-    <div class="header">
-        <div class="header-logo">D22</div>
-        <div class="header-list">
-            <ul>
-                <li>Tentang</li>
-                <li>Pelajaran</li>
-                <li>Hubungi Kami</li>
-            </ul>
+    <header>
+        <div class="container">
+            <div class="header-logo">D22</div>
+            <a href="#" class="menu-icon">
+                <span class="fa fa-bars menu-icon"></span>
+            </a>
+            <div class="header-list">
+                <ul>
+                    <li><a href="#about" target="_self">About</a></li>
+                    <li><a href="#courses" target="_self">Courses</a></li>
+                    <li><a href="#contact" target="_self">Contact Us</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
+    </header>
 
     <div class="main">
-
-        <div class="copy-container">
-            
-            <h1>HELLO <br>WORLD<span>.</span></h1>
-            <h2>This Is Our Team D22</h2>
+        <div class="container">
+            <div class="copy-container">
+                <h1>HELLO <br>WORLD<span>.</span></h1>
+                <h2>This Is Our Team D22</h2>
+            </div>
         </div>
+
     </div>
 
+    <a name="about"></a>
     <div class="team">
-        <div class=container> 
+        <div class="container">
             <h1 class="section-title">Our Team</h1>
             <div class="team-item">
                 <img src="fitra.jpg" alt="fitra">
@@ -50,12 +57,13 @@
                 <img class="transition-image" src="greg2.jpg" alt="greg2">
             </div>
         </div>
-        
+    
     </div>
 
+    <a name="courses"></a>
     <div class="contents">
         <div class="container">
-            <h3 class="section-title">Pelajaran di Progate</h3>
+            <h3 class="section-title">Learn in Progate</h3>
             <div class="content-items">
                 <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/html.svg" alt="" />
                 <p>HTML & CSS</p>
@@ -80,33 +88,31 @@
              
     </div>
 
+    <a name="contact"></a>
     <div class="contact-form">
         <div class="container">
-
-            <h3 class="section-title">Contact Us</h3>
+            <h3 class="section-title">Contact US</h3>
             <p>Email (Required)</p>
             <input>
             <p>Message (Required)</p>
             <textarea></textarea>
             <p> * Required fields must be filled.</p>
             <input class="contact-submit" type="submit" value="Send">
-
-        </div>
-        
-        
-    </div>
-
-    <div class="footer">
-        <div class="footer-logo">Progate</div>
-        <div class="footer-list">
-            <ul>
-                <li>Tentang</li>
-                <li>Karir</li>
-                <li>Hubungi Kami</li>
-            </ul>
         </div>
     </div>
 
+    <footer>
+        <div class="container">
+            <div class="footer-logo">Progate</div>
+            <div class="footer-list">
+                <ul>
+                    <li><a href="#about" target="_self">About</a></li>
+                    <li><a href="#courses" target="_self">Courses</a></li>
+                    <li><a href="#contact" target="_self">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
     <script src="js/scripts.js"></script>
 
 </body>

@@ -1,0 +1,64 @@
+/* for tablet view */
+@media (max-width: 1000px) {
+    
+  }
+  
+/* for Smartphone view */
+@media (max-width: 670px) {
+.header-logo{
+    font-size: 28px;
+    padding: 25px;
+}
+.header-list{
+    display:  none;
+}
+
+.menu-icon{
+    display: block;
+    padding: 15px;
+}
+
+.team-item{
+    width: 100%;
+}
+
+.team-item img{
+    width: 100%;
+}
+
+.transition-image{
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+}
+
+.container h3{
+    font-size: 12px;
+}
+
+.container p{
+    font-size: 10px;
+}
+
+.copy-container h1{
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.copy-container h2{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.content-items{
+    width: 100%;
+
+}
+
+footer{
+    text-align: center;
+}
+
+}
