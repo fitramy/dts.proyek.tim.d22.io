@@ -14,7 +14,7 @@ li {
     list-style: none;
 }
 
-header a, .footer a {
+header a, footer a {
     text-decoration: none;
     color: #fff;
 }
@@ -171,11 +171,11 @@ input, textarea {
     background-color: #02ccba;
 }
 
-.footer {
-    height: 120px;
+footer {
+    height: 180px;
     background-color: #2f5167;
     color: #fff;
-    padding: 40px;
+    padding: 20px;
 }
 
 .footer-logo {
