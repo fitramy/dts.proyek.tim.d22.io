@@ -7,6 +7,7 @@
 @media (max-width: 670px) {
 .header-logo{
     font-size: 28px;
+    padding: 25px;
 }
 .header-list{
     display:  none;
@@ -14,11 +15,17 @@
 
 .menu-icon{
     display: block;
+    padding: 15px;
 }
 
 .team-item{
     width: 100%;
 }
+
+.team-item img{
+    width: 100%;
+}
+
 .transition-image{
     width: 100%;
 }
