@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+  }
+
 title {
     color: #02ccba;
 }
@@ -14,6 +18,12 @@ header a, .footer a {
     text-decoration: none;
     color: #fff;
 }
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
 
 header {
     height: 90px;
@@ -34,10 +44,12 @@ header {
     color: #fff;
 }
 
-.container {
-    max-width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display:  none;
   }
 
 .main {
@@ -107,8 +119,8 @@ header {
 
 .content-items {
     float: left;
-    padding-right: 40px;
     font-size: 24px;
+    width: 25%;
 }
 
 .content-items p {
