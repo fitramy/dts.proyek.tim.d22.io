@@ -16,16 +16,16 @@
         height: 400px;
     }
 
+    .contents p {
+      text-align: center;
+    }
+
     .content-items {
         width: 25%;
     }
 
-    .contact-form {
-        text-align: center;
-    }
-
-    .contact-form h3 {
-        text-align: center;
+    .contact-form h3, p {
+        text-align: left;
     }
 
     input {
@@ -61,15 +61,15 @@
         height: 290px;
     }
 
+    .contents p {
+      text-align: center;
+    }
+
     .content-items {
         width: 50%;
     }
 
-    .contact-form {
-        text-align: center;
-    }
-
-    .contact-form h3 {
+    .contact-form h3, p {
         text-align: center;
     }
 
@@ -128,9 +128,17 @@
     line-height: 20px;
 }
 
+.contents p {
+  text-align: center;
+}
+
 .content-items{
     width: 100%;
 
+}
+
+.contact-form h3, p {
+    text-align: center;
 }
 
 footer{
