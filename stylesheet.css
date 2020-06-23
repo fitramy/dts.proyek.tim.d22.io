@@ -30,6 +30,11 @@ header {
     background-color: #26d0c9;
 }
 
+.header-list a:hover {
+    background-color: rgba(2, 204, 186, 0.6);
+    color: black;
+}
+
 .header-list li {
     float: right;
     color: #fff;
@@ -57,8 +62,7 @@ header {
     background-image: url("header.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: rgb(224, 255, 249)
-    
+    background-color: rgb(224, 255, 249);
 }
 
 .team {
@@ -183,6 +187,11 @@ footer {
 
 .footer-list {
     float: right;
+}
+
+.footer-list a:hover {
+    background-color: #2f5167;
+    color: black;
 }
 
 .footer-list li {
