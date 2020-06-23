@@ -12,6 +12,10 @@
         font-size: 5px;
     }
 
+    .team-item {
+        width: 33.3%;
+    }
+
     .team-item img {
         height: 400px;
     }
@@ -54,7 +58,7 @@
     }
 
     .team-item {
-        width: 30%;
+        width: 33.3%;
     }
 
     .team-item img {
