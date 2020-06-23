@@ -55,13 +55,9 @@ header {
 .main {
     padding: 100px 80px;
     background-image: url("header.jpg");
-<<<<<<< HEAD
-    background-size: cover;
-=======
     background-size: contain;
     background-repeat: no-repeat;
     background-color: rgb(224, 255, 249)
->>>>>>> ecf275bb15000063d44ab5fd69197efdf85b34f4
     
 }
 
@@ -69,7 +65,7 @@ header {
     margin-top: 50px;
     margin-bottom: 200px;
     text-align: center;
-    height: 500px;
+   
 }
 
 .team-item {
@@ -96,14 +92,14 @@ header {
 }
 
 .copy-container h1 {
-    font-size: 140px;
+    font-size: 130px;
     margin-bottom: 0px;
     color: #2f5167;
     
 }
 
 .copy-container h2 {
-    font-size: 70px;
+    font-size: 40px;
     margin-top: 0px;
     color: #02ccba;
     
@@ -114,7 +110,7 @@ header {
 }
 
 .contents {
-    height: 500px;
+    
     margin-top: 100px;
     margin-bottom: 100px;
     text-align: center;
@@ -146,7 +142,7 @@ header {
 
 .contact-form .section-title {
     border-bottom: 2px solid #889eab;
-    text-align: left;
+    text-align: center;
 }
 
 .contact-form p {
@@ -154,7 +150,7 @@ header {
 }
 
 input, textarea {
-    width: inherit;
+    width: 500px;
     font-size: 18px;
     padding: 20px 20px;
     border: 1px solid #dee7ec;
@@ -192,4 +188,8 @@ footer {
 
 .footer-list li {
     padding-bottom: 20px;
+}
+
+.clear {
+    clear: left;
 }
