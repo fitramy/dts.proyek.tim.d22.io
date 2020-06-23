@@ -150,11 +150,10 @@ header {
 }
 
 input, textarea {
-    width: 500px;
+    width: 100%;
     font-size: 18px;
     padding: 20px 20px;
     border: 1px solid #dee7ec;
-    box-sizing: border-box;
 }
 
 .contact-submit {
