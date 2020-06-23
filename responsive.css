@@ -1,5 +1,5 @@
 /* for semi-pc view */
-@media (max-width: 1400px) {
+@media(max-width: 1400px) {
     .copy-container h1 {
         font-size: 80px;
         margin-top: 0;
@@ -44,7 +44,7 @@
 
 
 /* for tablet view */
-@media (max-width: 1000px) {
+@media(max-width: 1000px) {
     .copy-container h1 {
         font-size: 60px;
         margin-top: 0;
@@ -88,7 +88,7 @@
 }
   
 /* for Smartphone view */
-@media (max-width: 670px) {
+@media(max-width: 670px) {
 .header-logo{
     font-size: 28px;
     padding: 25px;
